@@ -5,16 +5,16 @@ import (
 	"strings"
 )
 
-type nothing struct{}
+type void struct{}
 
-var marking = nothing{}
+var marking void
 
 type Set struct {
-	m map[string]nothing
+	m map[string]void
 }
 
 func NewSet() *Set {
-	return &Set{make(map[string]nothing)}
+	return &Set{make(map[string]void)}
 }
 
 func (s *Set) Add(value string) {
