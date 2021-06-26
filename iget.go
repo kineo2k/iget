@@ -1,7 +1,9 @@
 package main
 
-import "iget/app/cmd"
+import (
+	cmd2 "iget/cmd"
+)
 
 func main() {
-	cmd.Execute()
+	cmd2.Execute()
 }
