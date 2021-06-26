@@ -1,9 +1,9 @@
 package main
 
 import (
-	cmd2 "iget/cmd"
+	cmd "iget/cmd"
 )
 
 func main() {
-	cmd2.Execute()
+	cmd.Execute()
 }
